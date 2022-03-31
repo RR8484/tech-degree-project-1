@@ -7,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Mukta', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #ebe8e0;
 }
 /* Link Styles */
 
@@ -18,14 +18,22 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #1624e6;
 }
 
 /* Section Styles */
+.main-nav2 {
+  width: 100%;
+  background: rgb(46, 1, 58);
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(4, 1, 156);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -55,9 +63,10 @@ a:hover {
   color: white
 }
 
+
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/blue.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -76,22 +85,57 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+.head {
+  background: url('images/tubsmaller.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.name1{
+  background-color: rgba(39, 0, 51, 0.788);
+  color: rgba(255, 255, 255, 0.788);
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+.location1 {
+  background-color: rgb(255, 255, 255);
+  color: rgba(39, 0, 51, 0.788);
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
 .tag {
   background-color: #efefef;
-  color: black;
+  color: rgba(5, 71, 253, 0.788);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: rgb(15, 48, 92);
+  color: rgb(255, 255, 255);
+}
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  box-shadow: 1px 1px 2px 2px rgb(32, 31, 31);
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  min-width: 500px;
+  max-width: 800px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -99,7 +143,25 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: rgba(5, 71, 253, 0.788);
+}
+
+ul.hobbies {
+  padding: 0;
+  text-align: center;
+}
+
+.hobbies li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #033d94;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.hobbies li:nth-child(odd) {
+  background: #0399ff;
 }
 
 ul.skills {
@@ -110,7 +172,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #033d94;
   color: white;
   padding: 5px 10px;
   margin: 2px;
