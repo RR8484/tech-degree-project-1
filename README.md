@@ -1,2 +1,2 @@
 # tech-degree-project-3
- First Repo
+ Repository for the third tech degree project
