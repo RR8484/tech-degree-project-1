@@ -131,6 +131,26 @@ header .profile-image:hover {
   transition: all .5s;
   box-shadow: 1px 1px 2px 2px rgb(32, 31, 31);
 }
+
+ul.skills2 {
+  padding: 0;
+  text-align: center;
+}
+
+.skills2 li {
+  border-radius: 6px;
+  display: inline-block;
+  background:  rgba(61, 1, 80, 0.788);
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills2 li:nth-child(odd) {
+  background: #954af7;
+}
+
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -181,6 +201,7 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+
 
 footer {
   width: 100%;
