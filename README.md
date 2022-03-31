@@ -1,3 +1,3 @@
-# Tech Degree Project 3
+# Tech Degree Project 1
 
-First Repository for Project 3 of Team Treehouse's Tech Degree
+First Repository for Project 1 of Team Treehouse's Tech Degree
